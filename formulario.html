@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+
+
+
+    <form  class="form">
+        <h2 class="form_title">Registrate</h2>
+        <p class="form_paragraph">Obtene un 15% de descuento en el primer mes</p>
+
+        <div class="form_container">
+            <div class="form_group">
+                <label for="name" class="form_label">Nombre</label>
+                <input type="text" id="name" class="form_input" placeholder=" ">
+                <span class="form_line"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="adress" class="form_label">Apellido</label>
+                <input type="text" id="adress" class="form_input" placeholder=" ">
+                <span class="form_line"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="name" class="form_label">Email</label>
+                <input type="text" id="email" class="form_input" placeholder=" ">
+                <span class="form_line"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="password" class="form_label">Password</label>
+                <input type="text" id="password" class="form_input" placeholder="contraseña">
+                
+                <span class="form_line"></span>
+            </div>
+
+            <p id="mensajeError" style="color: red;"></p>
+
+
+
+
+            <input type="submit" onclick="validarContraseña()" class="form_submit">
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
