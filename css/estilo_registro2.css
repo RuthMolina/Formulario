@@ -4,23 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
-
-    background-color: #e5e5f7;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #f336e755, #f336e7 );
-    display: flex;
-    min-height: 100vh;
-}
 
 .form{
     background-color: white;
-    margin: auto;
+    margin: auto ;
     width: 90%;
     max-width: 400px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
     text-align: center;
+    margin-left: 400px;
 }
 
 .form_title{
